@@ -1,55 +1,14 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vs/ *.user *.suo *.VC.db *.VC.VC.opendb
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Build
+build/ bin/ obj/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# CMake
+CMakeFiles/ CMakeCache.txt cmake_install.cmake Makefile
 
-# Precompiled Headers
-*.gch
-*.pch
+# WDK / driver artifacts
+*.sys *.pdb *.cat *.inf
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Temporary
+*.log *.tmp

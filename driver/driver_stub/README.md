@@ -1,0 +1,1 @@
+Driver stub: place UMDF/KMDF driver projects here. Implement IoControl handlers to create virtual HID device and handle read/write from user-mode.
